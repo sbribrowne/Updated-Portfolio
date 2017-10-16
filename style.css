@@ -109,3 +109,10 @@ label {
 	color: #915174;
 	font-family: 'Ubuntu', sans-serif;
 }
+
+.footer {
+	text-align: center;
+	color: #915174;
+	font-size: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}

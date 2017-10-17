@@ -10,43 +10,40 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
   </head>
 
   <body>
 
+<div class="jumbotron jumbotron-fluid">
+ <img class="image" id="sade" src="assets/images/HeaderSade.png" alt="Responsive image"><br><br>
+ <p class="line-1 anim-typewriter">Welcome to my portfolio!</p>
+</div>
+
 <div class="container">
-    <img class="image" src="assets/images/HeaderSade.png" class="img-fluid" alt="Responsive image"><br>
 
 <br>
 
-
   <div class="row">
-  <div class="col padding-0 unused"></div>
-  <div class="col padding-0" id="container-1">
-  <a href="#" id="myBtn"><img id="portfolio" src="assets/images/ABOUT.png"></a>
-  </div>
 
-  <div class="col padding-0" id="container-2">
-  <img src="assets/images/image1.jpeg" id="portfolio" alt="Sade">
-  </div>
+    <div class="col padding-0 xs-col-12 sm-col-6" id="container-1">
+    <a href="#" id="myBtn"><img id="portfolio" src="assets/images/ABOUT.png"></a>
+    </div>
 
-  <div class="col padding-0 unused"></div>
-  <div class="col padding-0 unused"></div>
-  </div>
+    <div class="col padding-0 xs-col-12 sm-col-6" id="container-2">
+    <img src="assets/images/image1.jpeg" id="portfolio" alt="Sade">
+    </div>
 
-  <div class="row">
-  <div class="col padding-0 unused"></div>
-  <div class="col padding-0 unused"></div>
 
-  <div class="col padding-0" id="container-3">
-  <a href="#" id="myBtn1"><img id="portfolio" src="assets/images/CONNECT.png"></a>
-  </div>
+    <div class="col padding-0 xs-col-12 sm-col-6" id="container-3">
+    <a href="#" id="myBtn1"><img id="portfolio" src="assets/images/CONNECT.png"></a>
+    </div>
 
-  <div class="col padding-0" id="container-4">
-  <a href="#" id="myBtn2"><img id="portfolio" src="assets/images/INQUIRE.png"></a>
-  </div>
-  <div class="col padding-0 unused"></div>
+    <div class="col padding-0 xs-col-12 sm-col-6" id="container-4">
+    <a href="#" id="myBtn2"><img id="portfolio" src="assets/images/INQUIRE.png"></a>
+    </div>
+
   </div>
 </div>
 
@@ -58,10 +55,10 @@
   <!-- Modal content -->
   <div class="modal-content w3-animate-opacity">
     <span class="close">&times;</span>
-    <h1>Welcome to my portfolio.</h1>
-    My name is Sade Browne. Between 9am - 5pm, I'm a systems analyst, any other time I'm a design obsessed web developer maniacly coding my way through one of those bootcamps. Some of my over arching goals include using my new found coding skills to position myself at the intersection of social entrepreneruship and technology. Becoming an advocate of women participating in the tech space is also important.<br><br>
-    <h4>Who is Sadé, personally?</h4>
-    Some of my favorite things (outside of coding, of course) include: traveling, old school hip hop, being a despondent yet devoted Knicks fan and more traveling.
+    <h1 class="modal-title">My name is Sadé Browne</h1>
+    Between 9-5, I am a systems analyst. Any other time I'm a design obsessed web developer maniacly coding my way through one of those bootcamps. My preference for design is clean simple aesthetics, interactiveness and intuitive UI/UX. Some of my over arching goals include using these magic coding skills to position myself at the intersection of social entrepreneruship and technology. Becoming an advocate of women participating in the tech space is also important.<br><br>
+    <h4 class="modal-sub">Who is Sadé, personally?</h4>
+    Some of my favorite things (outside of coding, of course) include: traveling, old school hip hop, being a despondent yet devoted Knicks fan and some more traveling.
   </div>
 
 </div>
@@ -73,7 +70,7 @@
   <div class="modal-content w3-animate-opacity">
     <span class="close">&times;</span>
     <br>
-      <p class="nav justify-content-center"><a href="https://www.github.com/sbribrowne"><img class="sociallinks" src="assets/images/github.png"></a>&nbsp;<a href="https://www.linkedin.com/in/sbbrowne"><img class="sociallinks" src="assets/images/linkedin.png"></a>&nbsp;<a href="https://stackoverflow.com/users/8292516/sbribrowne"><img class="sociallinks" src="assets/images/stackoverflow.png"></a></p><br>
+      <p class="nav justify-content-center"><a href="https://www.github.com/sbribrowne"><img class="sociallinks" src="assets/images/github.png"></a>&nbsp;<a href="https://www.linkedin.com/in/sbbrowne"><img class="sociallinks" src="assets/images/linkedin.png"></a>&nbsp;<a href="https://stackoverflow.com/users/8292516/sbribrowne"><img class="sociallinks" src="assets/images/stackoverflow.png"></a><a href="https://www.twitter.com/codebrittany"><img class="sociallinks" src="assets/images/twitter.png"></a></p><br>
   </div>
 
 </div>
@@ -82,9 +79,11 @@
 <div id="myModal2" class="modal w3-animate-opacity">
 
   <!-- Modal content -->
-  <div class="modal-content w3-animate-opacity">
+  <div class="modal-content2 w3-animate-opacity">
     <span class="close">&times;</span>
     <form method="post" action="send-email.php">
+    <h2 class="modal-title">Let's build something great.</h2>
+    Fill in the information below and I will get back to you as soon as possible. Thanks for your interest!<br><br>
     <div class="form-group">
         <label for="exampleFormControlInput1 fullname"><a class="formlbl">Full Name</a></label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
@@ -104,7 +103,7 @@
 
 </div>
 
-<div class="footer">&copy;Sadé Browne</div>
+<footer class="footer">&copy;Sadé Browne</footer>
 
 <!-- Optional JavaScript -->
 

@@ -1,3 +1,8 @@
+//Header navigate back to home page
+$("#sade").on("click",function(){
+    window.location.href = 'http://www.sadebrowne.com';
+});
+
 // Get the modal
 var modal = document.getElementById('myModal');
 var modal1 = document.getElementById('myModal1');
@@ -10,6 +15,8 @@ var btn2 = document.getElementById("myBtn2");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close")[1];
+var span2 = document.getElementsByClassName("close")[2];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -27,7 +34,13 @@ btn2.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
+}
+
+span1.onclick = function() {
     modal1.style.display = "none";
+}
+
+span2.onclick = function() {
     modal2.style.display = "none";
 }
 

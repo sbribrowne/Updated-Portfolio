@@ -1,3 +1,11 @@
+
+$(window).load(function(){
+    setTimeout(function(){
+            $('#preloader').fadeOut(700);
+        },4000); // set the time here
+});
+
+
 //Header navigate back to home page
 $("#sade").on("click",function(){
     window.location.href = 'http://www.sadebrowne.com';

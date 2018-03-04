@@ -1,20 +1,33 @@
+
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 body {
-	background-color: #EFE9E3;
+	background-color: white;
+}
+
+.text {
+    color: #ffffff;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 17px;
+}
+
+.text-col {
+    color: #ffffff;
+    font-size: 17px;
 }
 
 .jumbotron-fluid {
 	padding-top: 6px;
-	background-color: #EFE9E3;
+	background-color: white;
 }
 
 .container {
-	background-color: #EFE9E3;
+	background-color: white;
 }
 
-.row {
+.main-row {
 	box-shadow: 0 4px 3px -2px #888888;
 }
 
@@ -22,8 +35,11 @@ body {
 	width: 100%; 
 }
 
-
-
+#resume {
+    width: 75%;
+    margin: auto;
+}
+/*
 .padding-0{
 	height: 258px;
     padding-right:0;
@@ -31,7 +47,7 @@ body {
     color: white;
     text-align: center;
 }
-
+*/
 .padding-0:hover{
 	-ms-transform: scale(1.3,1.3); /* IE 9 */
     -webkit-transform: scale(1.3,1.3); /* Safari */
@@ -58,53 +74,91 @@ body {
 
 a {
 	display:inline-block;
+    color: #ffffff;
 }
 
-/*Modal css*/
+h5 {
+    color: #ffffff;
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    padding-top: 10vh;
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+.form-group {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.lang-icon {
+    height: 80px;
+}
+
+#holder {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#break {
+    height: 12px;
+}
+
+.sociallinks {
+    height: 25px;
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 15px;
-    border: 5px solid #620637;
+    background-color: rgba(98,6,55,0.95);
+    height: 100%;
+    width: 100vw;
     border-radius: 0px;
-    width: 55%;
+    overflow: auto !important; 
 }
 
 .modal-content2 {
-	background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 5px solid #620637;
+	background-color: rgba(166,114,137,0.95);
+    height: 100%;
+    width: 100vw;
     border-radius: 0px;
-    width: 38%;
+    overflow: auto !important;
 }
 
-.modal-title,
+.modal-title {
+    color: #ffffff;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
 h2 {
-	color: #620637;
-	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ffffff;
+    opacity: 1;
+	font-family: 'Londrina Outline', cursive;
+    font-weight: bold;
+    text-align: center;
 }
 
-.modal-sub,
-h4 {
-	color: #915174;
-	font-family: 'Open Sans Condensed', sans-serif;
+h6 {
+    color: #ffffff;
+    font-family: 'Bitter', serif;
+    padding-left: 7vw;
+    padding-right: 10vw;
+}
+
+.modal-sub {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+    padding-left: 10vw;
+}
+
+.modal-sub-col {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    color: #ffffff;
 }
 
 #submitbttn {
@@ -121,12 +175,14 @@ input[type=submit] {
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
+    color: #ffffff;
+    float: left;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding: 1px;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    
 }
 
 .close:hover {
@@ -142,46 +198,13 @@ input[type=submit] {
 }
 
 label {
-	color: #915174;
+	color: #ffffff;
 }
 
 .footer {
 	text-align: center;
 	color: #915174;
 	font-size: 10px;
-}
-
-/*Typewriter Animation*/
-/* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 14em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 160%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%); 
-    font-family: 'Anonymous Pro', monospace;     
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 3s steps(30) 1s 1 normal both,
-             blinkTextCursor 500ms steps(30) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 14em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: #620637;}
-  to{border-right-color: transparent;}
 }
 
 
